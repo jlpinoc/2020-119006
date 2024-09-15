@@ -41,7 +41,7 @@ int main() {
     int opcion;
     int n;
 
-    cout << "Ingrese el tamaño del arreglo: ";
+    cout << "Ingrese el tamano del arreglo: ";
     cin >> n;
 
     int A[n];
@@ -51,11 +51,11 @@ int main() {
     }
 
     do {
-        cout << "\nMenú:\n";
+        cout << "\nMenu:\n";
         cout << "1. Intercambio directo hacia la derecha\n";
         cout << "2. Intercambio directo hacia la izquierda\n";
         cout << "3. Salir\n";
-        cout << "Seleccione una opción: ";
+        cout << "Seleccione una opcion: ";
         cin >> opcion;
 
         switch (opcion) {
@@ -73,7 +73,7 @@ int main() {
                 cout << "Saliendo del programa...\n";
                 break;
             default:
-                cout << "Opción no válida, intente nuevamente.\n";
+                cout << "Opcion no valida, intente nuevamente.\n";
         }
     } while (opcion != 3);
 
